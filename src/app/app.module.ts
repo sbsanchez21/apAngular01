@@ -10,6 +10,9 @@ import { EducacionComponent } from './components/educacion/educacion.component';
 import { EncabezadoComponent } from './components/encabezado/encabezado.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+
 
 @NgModule({
   declarations: [
@@ -24,7 +27,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule, //para databinding
+    HttpClientModule //para servicio httpclient
   ],
   providers: [],
   bootstrap: [AppComponent]
