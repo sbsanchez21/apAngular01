@@ -11,6 +11,7 @@ import { EncabezadoComponent } from './components/encabezado/encabezado.componen
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { PruebaComponent } from './components/prueba/prueba.component';
 
 
 
@@ -22,7 +23,8 @@ import { HttpClientModule } from '@angular/common/http';
     ExperienciaComponent,
     EducacionComponent,
     EncabezadoComponent,
-    AcercaDeComponent
+    AcercaDeComponent,
+    PruebaComponent
   ],
   imports: [
     BrowserModule,

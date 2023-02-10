@@ -62,6 +62,7 @@
 		},
 		{
 			"name": "Diseño de Sistemas",
+			"progress": 50,
 			"confirms": 3,
 			"confirmsNames": [{
 				"name": "Nikolai Emmanuel Bayro Jablonski"
